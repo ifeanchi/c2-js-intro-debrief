@@ -1,0 +1,6 @@
+let myNumber = 11;
+if (typeof myNumber !=== Number) {console.log('this is not a number');}
+else if (myNumber%15 === 0){ console.log('Genbuzz');}
+else if (myNumber%3 ===0){ console.log('Gen');}
+else if (myNumber%5 ===0){ console.log('Buzz');}
+else {console.log('myNumber');}
